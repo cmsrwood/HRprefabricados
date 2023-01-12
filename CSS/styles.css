@@ -16,7 +16,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    background: var(--colorgeneral);
+    /* background: var(--colorgeneral); */
 }
 a {
     text-decoration: none;
