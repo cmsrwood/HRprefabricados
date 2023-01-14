@@ -1,7 +1,7 @@
 :root{
     --cafe:#5b281d;
     --colorcuadros:#0D171F;
-    --colorgeneral:#0D171F;
+    --colorgeneral:#6A6E6D;
     --naranja:#DC9D47 ;
 }
 
@@ -78,16 +78,16 @@ a {
         color: white;
     }
 
-.fondo{
+.fondo2{
     width: 100%;
     background-size: cover;
     background-position: center;
 }
-.fondo2{
+.fondo{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url(../imagenes/fondo2.jpg);
+    background-image: url(../img/fondo.jpg);
 }
 @keyframes aparecer{
     0% {
