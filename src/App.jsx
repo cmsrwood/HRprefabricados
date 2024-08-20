@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./Pages/Index";
 import Navegacion from "./Pages/plantilla/Navegacion";
+import Index from "./Pages/Index";
 import Nosotros from "./Pages/Nosotros";
 import Contacto from "./Pages/Contacto";
 import Productos from "./Pages/Productos";
+
 function App() {
   return (
     <div className="">

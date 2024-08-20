@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Navegacion() {
     return (
         <div>
+            <nav className="navbar navbar-expand-xl navbar-light bg-light text-center align-items-center shadow my-5"></nav>
             <nav className="navbar navbar-expand-xl navbar-light fixed-top bg-light text-center align-items-center shadow">
                 <div className="container-fluid">
                     <Link className="navbar-brand p-1 me-5" to="/">
@@ -27,8 +28,21 @@ export default function Navegacion() {
                                 <Link className="nav-link" to="/productos"><i className="bi bi-shop-window pe-1"></i>Productos</Link>
                             </li>
                         </ul>
-                        <li className="nav-item dropdown list-unstyled px-5">
-                            <Link className="nav-link" to="#"><i className="bi bi-facebook"></i></Link>
+                        <li className="nav-item dropdown list-unstyled px-5 text-center">
+                            <div className="row justify-content-center align-items-center g-2">
+                                <div className="col">
+                                    <Link className="nav-link col" to="#"><i className="bi bi-facebook"></i></Link>
+                                </div>
+                                <div className="col">
+                                    <Link className="nav-link col" to="#"><i className="bi bi-instagram"></i></Link>
+                                </div>
+                                <div className="col">
+                                    <Link className="nav-link col" to="#"><i className="bi bi-tiktok"></i></Link>
+                                </div>
+                                <div className="col">
+                                    <Link className="nav-link col" to="#"><i className="bi bi-whatsapp"></i></Link>
+                                </div>
+                            </div>
                         </li>
                     </div>
                 </div>
