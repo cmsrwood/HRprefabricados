@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Index() {
     return (
-        <div>
-            HOLA
+        <div className='container'>
+            
         </div>
     )
 }
