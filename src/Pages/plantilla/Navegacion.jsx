@@ -8,7 +8,7 @@ export default function Navegacion() {
             <nav className="navbar navbar-expand-xl navbar-light fixed-top bg-light text-center align-items-center shadow">
                 <div className="container-fluid">
                     <Link className="navbar-brand p-1 me-5" to="/">
-                        <img src="/logo.png" alt="logo" />
+                        <img src="/logo.png" alt="logo" width={100} height={"40"}/>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@ export default function Navegacion() {
                         <li className="nav-item dropdown list-unstyled px-5 text-center">
                             <div className="row justify-content-center align-items-center g-2">
                                 <div className="col">
-                                    <Link className="nav-link col" to="#"><i className="bi bi-facebook"></i></Link>
+                                    <Link className="nav-link col" to="https://www.facebook.com/profile.php?id=61560268858154"><i className="bi bi-facebook"></i></Link>
                                 </div>
                                 <div className="col">
                                     <Link className="nav-link col" to="#"><i className="bi bi-instagram"></i></Link>
