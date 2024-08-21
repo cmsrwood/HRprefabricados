@@ -14,3 +14,16 @@
     background: rgb(255, 255, 255);
     background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(220, 53, 69, 1) 50%);
 }
+
+.zoomhover:hover {
+    transform: scale(1.2);
+}
+
+.zoomhover2:hover {
+    transform: scale(1.1);
+}
+
+.containerzoom {
+    overflow: hidden;
+    transition: all 500ms;
+}
