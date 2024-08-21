@@ -9,3 +9,8 @@
     background-attachment: fixed;
     background-position: center;
 }
+
+.gradient {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(220, 53, 69, 1) 50%);
+}
