@@ -4,6 +4,7 @@ import Index from "./Pages/Index";
 import Nosotros from "./Pages/Nosotros";
 import Contacto from "./Pages/Contacto";
 import Productos from "./Pages/Productos";
+import Footer from "./Pages/plantilla/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/contacto' element={<Contacto />}> </Route>
           <Route exact path='/productos' element={<Productos />}> </Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
