@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Index() {
     function card(icono, titulo, texto) {
         return (
-            <div className="card border border-secondary col-12 col-sm-6 col-md-3 wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
+            <div className="card border border-secondary col-12 col-sm-6 col-md-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
                 <i className={`bi bi-${icono} fs-1 text-danger p-5 containerzoom zoomhover`}></i>
                 <div className="card-body">
                     <h5 className="card-title naranja fw-bold">
@@ -35,7 +35,7 @@ export default function Index() {
                     <p className=" ">Nuestras estructuras prefabricadas te ofrecen la calidad y durabilidad que buscas, en menos tiempo y con menos complicaciones.</p>
                 </div>
 
-                <div className="container-fluid text-center my-5 p-5">
+                <div className="container-fluid text-center my-5 px-5">
                     <div className="row justify-content-center ">
                         {card("house-door", "Diseño y Construcción Personalizada", "Diseñamos y construimos estructuras prefabricadas a medida para satisfacer tus necesidades específicas.")}
                         {card("speedometer2", "Instalación Rápida y Eficiente", "Contamos con un equipo altamente capacitado para instalar tus estructuras en tiempo récord y con la máxima calidad.")}
