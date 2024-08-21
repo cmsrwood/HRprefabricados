@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Navegacion() {
     return (
         <div>
-            <nav className="navbar navbar-expand-xl navbar-light bg-light text-center align-items-center shadow my-5"></nav>
+            <nav className="navbar navbar-expand-xl navbar-light bg-light text-center align-items-center shadow mb-5"></nav>
             <nav className="navbar navbar-expand-xl navbar-light fixed-top bg-light text-center align-items-center shadow">
                 <div className="container-fluid">
                     <Link className="navbar-brand p-1 me-5" to="/">
