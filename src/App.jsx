@@ -4,7 +4,7 @@ import Index from "./Pages/Index";
 import Nosotros from "./Pages/Nosotros";
 import Contacto from "./Pages/Contacto";
 import Footer from "./Pages/plantilla/Footer";
-import Proyectos from "./Pages/proyectos";
+import Proyectos from "./Pages/Proyectos";
 
 function App() {
   return (
