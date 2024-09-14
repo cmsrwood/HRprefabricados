@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "titulo": "Pandi",
+        "texto": "Descripción del proyecto 1",
+        "imagenes": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Proyecto 2",
+        "texto": "Descripción del proyecto 2",
+        "imagenes": "1.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Proyecto 3",
+        "texto": "Descripción del proyecto 3",
+        "imagenes": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+        ]
+    }
+]

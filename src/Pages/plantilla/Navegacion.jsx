@@ -12,7 +12,7 @@ export default function NavegacionDefault() {
         }
     }
     return (
-        <nav className="navbar navbar-expand-xl navbar-light bg-light text-center align-items-center shadow">
+        <nav className="navbar navbar-expand-xl navbar-light bg-light text-center align-items-center shadow mb-5">
             <div className="container-fluid">
                 <Link className="navbar-brand p-1 me-5" to="/">
                     <img src="/logo.png" alt="logo" width={100} height={"40"} />
@@ -32,7 +32,7 @@ export default function NavegacionDefault() {
                             <Link className={`nav-link ${rutaActiva("contacto")}`} to="/contacto"><i className="bi bi-telephone pe-1"></i>Contacto</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={`nav-link ${rutaActiva("productos")}`} to="/productos"><i className="bi bi-shop-window pe-1"></i>Productos</Link>
+                            <Link className={`nav-link ${rutaActiva("proyectos")}`} to="/proyectos"><i className="bi bi-building pe-1"></i>Proyectos</Link>
                         </li>
                     </ul>
                     <li className="nav-item dropdown list-unstyled px-5 text-center">
