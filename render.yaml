@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hr-prefabricados
+    env: static
+    staticPublishPath: dist  # O el directorio donde Vite genera los archivos estáticos
+    buildCommand: npm run build  # O el comando que uses para construir la app con Vite
+    redirects:
+      - source: '/*'
+        destination: '/index.html'
+        status: 200
