@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Proyectos() {
   const [proyectos, setProyectos] = useState([]);
@@ -14,10 +15,10 @@ export default function Proyectos() {
     return (
       <div className="col mb-5" key={proyecto.id}>
         <div className="card w-100 h-100 border border-secondary wow animate__animated animate__fadeInUp">
-          <img src={`/proyectos/${proyecto.id}/1.jpg`} alt={proyecto.titulo} style={{ height: '250px' }}/>
+          <img src={`/proyectos/${proyecto.id}/1.jpg`} alt={proyecto.titulo} style={{ height: '250px' }} />
           <div className="card-body">
             <h5 className="card-title naranja fw-bold">{proyecto.titulo}</h5>
-            <a href={`/proyecto/${proyecto.id}`} className="btn btn-danger">Ver más</a>
+            <Link to={`/proyecto/${proyecto.id}`} className="btn btn-danger">Ver más</Link>
           </div>
         </div>
       </div>
