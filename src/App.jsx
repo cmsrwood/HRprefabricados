@@ -5,6 +5,7 @@ import Nosotros from "./Pages/Nosotros";
 import Contacto from "./Pages/Contacto";
 import Footer from "./Pages/plantilla/Footer";
 import Proyectos from "./Pages/Proyectos";
+import Proyecto from "./Pages/Proyecto";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/nosotros' element={<Nosotros />}> </Route>
           <Route exact path='/contacto' element={<Contacto />}> </Route>
           <Route exact path='/proyectos' element={<Proyectos />}> </Route>
+          <Route exact path='/proyecto/:id' element={<Proyecto />}> </Route>
         </Routes>
         <Footer />
       </BrowserRouter>
