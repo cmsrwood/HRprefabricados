@@ -48,7 +48,7 @@ export default function Proyecto() {
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src={`/proyectos/${proyecto.id}/1.jpg`} class="d-block w-100" alt="...">
+                      <img src={`/proyectos/${proyecto.id}/1.jpg`} class="d-block w-100" alt="..."/>
                     </div>
                     {renderImages()}
                   </div>
