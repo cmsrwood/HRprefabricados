@@ -23,7 +23,7 @@ export default function Proyecto() {
         let images = [];
         for (let i = 1; i <= proyecto.num_imagenes; i++) {
             images.push(
-                <div class="carousel-item">
+                <div className="carousel-item">
                     <img
                         key={i}
                         src={`/proyectos/${proyecto.id}/${i}.jpg`}
@@ -40,17 +40,17 @@ export default function Proyecto() {
         <div className="container text-center">
             <h1>{proyecto.titulo}</h1>
             <div className="row">
-                <div id="carouselExample" class="carousel slide">
-                  <div class="carousel-inner">
+                <div id="carouselExample" className="carousel slide">
+                  <div className="carousel-inner">
                     {renderImages()}
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
                   </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
                   </button>
                 </div>
             </div>
