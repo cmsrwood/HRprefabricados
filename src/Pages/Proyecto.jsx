@@ -21,15 +21,15 @@ export default function Proyecto() {
 
     const renderImages = () => {
         let images = [];
-        for (let i = 1; i <= proyecto.num_imagenes; i++) {
+        for (let i = 2; i <= proyecto.num_imagenes; i++) {
             images.push(
-                <div className="carousel-item">
+                <div class="carousel-item">
                     <img
-                        key={i}
-                        src={`/proyectos/${proyecto.id}/${i}.jpg`}
-                        alt={`Imagen ${i} del proyecto ${proyecto.titulo}`}
-                        className="d-block w-100"
-                    />
+                    key={i}
+                    src={`/proyectos/${proyecto.id}/${i}.jpg`}
+                    alt={`Imagen ${i} del proyecto ${proyecto.titulo}`}
+                    className="img-fluid"
+                />
                 </div>
             );
         }
@@ -40,19 +40,28 @@ export default function Proyecto() {
         <div className="container text-center">
             <h1>{proyecto.titulo}</h1>
             <div className="row">
-                <div id="carouselExample" className="carousel slide">
-                  <div className="carousel-inner">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src={`/proyectos/${proyecto.id}/1.jpg`} class="d-block w-100" alt="...">
+                    </div>
                     {renderImages()}
                   </div>
-                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                   </button>
-                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                   </button>
                 </div>
+                
             </div>
         </div>
     );
