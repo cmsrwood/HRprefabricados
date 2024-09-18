@@ -23,10 +23,10 @@ export default function Proyecto() {
     let images = [];
     for (let i = 1; i <= proyecto.num_imagenes; i++) {
       images.push(
-        <div className="col">
+        <div className={`col wow` + (i % 2 === 1 ? ' animate__animated animate__fadeInLeft' : ' animate__animated animate__fadeInRight')}>
           <img
             key={i}
-            src={`/proyectos/${proyecto.id}/${i}.jpg`}
+            src={`/proyectos/${proyecto.id}/imagen_${i}.jpg`}
             alt={`Imagen ${i} del proyecto ${proyecto.titulo}`}
             className="img-fluid zoomhover2 containerzoom shadow rounded-5"
           />

@@ -15,7 +15,7 @@ export default function Proyectos() {
     return (
       <div className="col mb-5 containerzoom zoomhover2" key={proyecto.id}>
         <div className="card w-100 h-100 border border-secondary wow animate__animated animate__fadeInUp">
-          <img src={`/proyectos/${proyecto.id}/1.jpg`} alt={proyecto.titulo} style={{ height: '250px' }} />
+          <img src={`/proyectos/${proyecto.id}/imagen_1.jpg`} alt={proyecto.titulo} style={{ height: '250px' }} />
           <div className="card-body">
             <h5 className="card-title naranja fw-bold">{proyecto.titulo}</h5>
             <Link to={`/proyecto/${proyecto.id}`} className="btn btn-danger">Ver más</Link>
