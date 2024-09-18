@@ -28,7 +28,7 @@ export default function Proyecto() {
             key={i}
             src={`/proyectos/${proyecto.id}/${i}.jpg`}
             alt={`Imagen ${i} del proyecto ${proyecto.titulo}`}
-            className="img-fluid zoomhover containerzoom shadow rounded-5"
+            className="img-fluid zoomhover2 containerzoom shadow rounded-5"
           />
         </div>
       );
