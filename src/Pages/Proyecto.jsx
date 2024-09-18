@@ -37,7 +37,7 @@ export default function Proyecto() {
   };
 
   return (
-    <div className="container text-center">
+    <div className="container text-center mb-5">
       <h1 className="display-3 text-danger mb-5">{proyecto.titulo}</h1>
       <div className="row row-cols-1 row-cols-sm-2 g-5">
         {renderImages()}
