@@ -23,7 +23,7 @@ export default function Proyecto() {
     let images = [];
     for (let i = 1; i <= proyecto.num_imagenes; i++) {
       images.push(
-        <div className="col ">
+        <div className="col">
           <img
             key={i}
             src={`/proyectos/${proyecto.id}/${i}.jpg`}

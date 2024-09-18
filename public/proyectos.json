@@ -7,16 +7,16 @@
     {
         "id": 2,
         "titulo": "Cumaca, Tibacuy",
-        "num_imagenes": 9
+        "num_imagenes": 6
     },
     {
         "id": 3,
         "titulo": "Victoria Alta, Silvania",
-        "num_imagenes": 17
+        "num_imagenes": 13
     },
     {
         "id": 4,
         "titulo": "Silvania",
-        "num_imagenes": 12
+        "num_imagenes": 7
     }
 ]
